@@ -23,10 +23,10 @@ const scrollToSection = (sectionId, paddingTop = 20) => {
 <template>
   <main>
     <Navbar @navigateTo="scrollToSection" />
-    <About id="about" :style="{ paddingTop: '50px' }" />
-    <Education id="education" :style="{ paddingTop: '50px' }" />
-    <Projects id="projects" :style="{ paddingTop: '50px' }" />
-    <Contact id="contact" :style="{ paddingTop: '50px' }" />
+    <About id="about" :style="{ paddingTop: '20px' }" />
+    <Education id="education" :style="{ paddingTop: '20px' }" />
+    <Projects id="projects" :style="{ paddingTop: '20px' }" />
+    <Contact id="contact" :style="{ paddingTop: '20px' }" />
   </main>
 </template>
 
