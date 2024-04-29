@@ -13,6 +13,7 @@ import Education from './Education.vue';
     <Education />
     <Projects />
     <Contact />
+
   </main>
 </template>
 

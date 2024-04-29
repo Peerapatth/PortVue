@@ -15,8 +15,7 @@ onMounted(() => {
       <div class="Navlink">
         <div class="Navlogo">
           <li>
-            <header><a href="#">
-                JIRAPAT.</a></header>
+            <header><a href="#"> JIRAPAT.</a></header>
           </li>
         </div>
         <li><a href="#about">About</a></li>
@@ -63,7 +62,6 @@ a {
   align-items: center;
   justify-content: flex-start;
   color: var(--write-primary);
-
 }
 
 .Navtalk {
@@ -81,13 +79,16 @@ a {
   transition: transform 0.3s ease;
 }
 .Navlink :not(:first-child):hover {
-  transform: translateY(-1px); 
+  transform: translateY(-1px);
+}
+
+.Navlink a:hover {
+    color: var(--write-primary);
 }
 
 .Navtalk :hover {
   transform: scale(1.02);
 }
-
 
 @media (max-width: 768px) {
   a {
