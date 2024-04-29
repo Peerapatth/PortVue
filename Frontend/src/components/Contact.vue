@@ -77,12 +77,20 @@
     color: var(--write-primary);
 }
 
-.Footer-right :hover {
-    transform: translateY(-1px);
-}
 
 .Footer-icon {
     display: flex;
     justify-content: flex-end;
 }
+
+.Footer-icon a {
+    margin-left: 0.5rem;
+    background: var(--gredient);
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1.5px solid var(--write-primary);
+    color: var(--write-primary);
+    border-radius: 20%;
+}
+
 </style>

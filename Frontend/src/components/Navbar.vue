@@ -78,6 +78,7 @@ a {
   font-weight: 500;
   transition: transform 0.3s ease;
 }
+
 .Navlink :not(:first-child):hover {
   transform: translateY(-1px);
 }
