@@ -6,6 +6,6 @@
   align-items: center;
 }
 
-@media (min-width: 1024px) {
-
-} 
+::-webkit-scrollbar {
+  display: none;
+}
