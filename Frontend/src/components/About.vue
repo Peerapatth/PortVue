@@ -22,9 +22,9 @@ onMounted(() => {
       seek opportunities that will help me grow professionally, expand my knowledge, and contribute
       to meaningful software development projects.
       <div class="about-icon">
-        <a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-        <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jirapat-lakma/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Bukharney"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/jrplm__/"><i class="bx bxl-instagram"></i></a>
       </div>
     </div>
   </section>

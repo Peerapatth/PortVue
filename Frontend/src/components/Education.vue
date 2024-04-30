@@ -9,7 +9,7 @@
           </div>
           <div class="Education-subheader">Bachelor of Computer Engineering</div>
           <div class="Education-time">2021 - 2025</div>
-          <div class="Education-header">SUBYAIWITTAYAKOM SCHOOL</div>
+          <div class="Education-header">Subyaiwittayakom School</div>
           <div class="Education-subheader">Science-Math Program</div>
           <div class="Education-time">2008 - 2020</div>
         </div>
@@ -18,13 +18,15 @@
         <div class="Education-Skills-header">Skills</div>
         <div class="Skills-details">
           <div class="Skills-header">Languages</div>
-          <div class="Skills-subheader">Go, TypeScript, Python, C, SQL, React</div>
+          <div class="Skills-subheader">Go, TypeScript, Python, C, SQL</div>
           <div class="Skills-header">Tools</div>
           <div class="Skills-subheader">
             Git/Github, GitlabCI, Postman, PostgreSQL, VS Code, Docker
           </div>
           <div class="Skills-header">Soft Skills</div>
-          <div class="Skills-subheader">Self-learning, Open-mindedness, Adaptability, Management</div>
+          <div class="Skills-subheader">
+            Self-learning, Open-mindedness, Adaptability, Management
+          </div>
         </div>
       </div>
     </div>
@@ -88,7 +90,7 @@
     margin-top: -3rem;
     grid-template-columns: 1fr;
   }
-  .Education-Skills-header{
+  .Education-Skills-header {
     font-size: 1.5rem;
   }
 }
