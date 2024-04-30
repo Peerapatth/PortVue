@@ -1,21 +1,21 @@
 <script setup>
-import Navbar from './Navbar.vue';
-import About from './About.vue';
-import Projects from './Projects.vue';
-import Contact from './Contact.vue';
-import Education from './Education.vue';
+import Navbar from './Navbar.vue'
+import About from './About.vue'
+import Projects from './Projects.vue'
+import Contact from './Contact.vue'
+import Education from './Education.vue'
 
 const scrollToSection = (sectionId, paddingTop = 20) => {
-  const section = document.getElementById(sectionId);
+  const section = document.getElementById(sectionId)
   if (section) {
-    const navBarHeight = document.querySelector('nav').offsetHeight; 
-    const offset = section.offsetTop - navBarHeight - paddingTop; 
+    const navBarHeight = document.querySelector('nav').offsetHeight
+    const offset = section.offsetTop - navBarHeight - paddingTop
 
-    document.body.style.scrollBehavior = 'auto'; 
-    window.scrollTo({ top: offset, behavior: 'smooth' });
+    document.body.style.scrollBehavior = 'auto'
+    window.scrollTo({ top: offset, behavior: 'smooth' })
     setTimeout(() => {
-      document.body.style.scrollBehavior = 'smooth'; 
-    }, 1000);
+      document.body.style.scrollBehavior = 'smooth'
+    }, 1000)
   }
 }
 </script>
@@ -42,7 +42,7 @@ main {
 @keyframes scrollAnimation {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(50px);
   }
   to {
     opacity: 1;
@@ -50,7 +50,10 @@ main {
   }
 }
 
-#about, #education, #projects, #contact {
-  animation: scrollAnimation 0.5s ease forwards;
+#about,
+#education,
+#projects,
+#contact {
+  animation: scrollAnimation 1s;
 }
 </style>

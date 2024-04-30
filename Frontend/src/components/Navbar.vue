@@ -23,7 +23,7 @@ onMounted(() => {
         <li><a href="#contact">Contact</a></li>
       </div>
       <div class="Navtalk">
-        <li><a href="https://www.linkedin.com/in/john-doe/">Let's talk</a></li>
+        <li><a href="https://www.linkedin.com/in/jirapat-lakma/">Let's talk</a></li>
       </div>
     </ul>
   </nav>
@@ -84,7 +84,7 @@ a {
 }
 
 .Navlink a:hover {
-    color: var(--write-primary);
+  color: var(--write-primary);
 }
 
 .Navtalk :hover {

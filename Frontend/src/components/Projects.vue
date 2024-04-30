@@ -12,12 +12,22 @@
           <div class="Project-right">
             <div class="Project-Name-Grid">
               <div>
+                <div class="Project-Name">
+                  <img
+                    src="
+                  ../assets/MODX/Logo.png"
+                    alt=""
+                    style="height: 1.5rem; margin-right: 0.5rem"
+                  />
+                </div>
                 <div class="Project-Name">MODX - Back-end Developer</div>
                 <div class="Project-time">SEP 2023 - DEC 2023</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.com/"><i class="bx bxl-behance"></i></a>
+                <a href="https://github.com/JOKPOON/ModX"><i class="bx bxl-github"></i></a>
+                <a href="https://www.behance.net/gallery/186493453/MODX-KMUTT-Book-Store"
+                  ><i class="bx bxl-behance"></i
+                ></a>
               </div>
             </div>
             <p>
@@ -36,12 +46,24 @@
           <div class="Project-right">
             <div class="Project-Name-Grid">
               <div>
+                <div class="Project-Name">
+                  <img
+                    src="
+                  ../assets/TradeKub/Logo.png"
+                    alt=""
+                    style="height: 2rem; margin-right: 0.5rem"
+                  />
+                </div>
                 <div class="Project-Name">TradeKub - Back-end Develope</div>
                 <div class="Project-time">MAR 2023 - MAY 20233</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.com/"><i class="bx bxl-behance"></i></a>
+                <a href="https://github.com/Bukharney/Tradekub_API"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a href="https://www.behance.net/gallery/171777891/Tradekub"
+                  ><i class="bx bxl-behance"></i
+                ></a>
               </div>
             </div>
             <p>
@@ -61,12 +83,21 @@
           <div class="Project-right">
             <div class="Project-Name-Grid">
               <div>
+                <div class="Project-Name">
+                  <img
+                    src="
+                  ../assets/Bangmod/Logo.png"
+                    alt=""
+                    style="height: 4rem; margin-right: 0.5rem"
+                  />
+                </div>
                 <div class="Project-Name">Banmod Hackathon - Front-end Developer</div>
                 <div class="Project-time">OCT 2022 - NOV 2022</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.com/"><i class="bx bxl-behance"></i></a>
+                <a href="https://github.com/cpe-kmutt-student/bangmod-hackathon-2023"
+                  ><i class="bx bxl-github"></i
+                ></a>
               </div>
             </div>
             <p>
@@ -85,42 +116,25 @@
           <div class="Project-right">
             <div class="Project-Name-Grid">
               <div>
+                <div class="Project-Name">
+                  <img
+                    src="
+                  ../assets/Bukshort/Logo.png"
+                    alt=""
+                    style="height: 2rem; margin-right: 0.5rem"
+                  />
+                </div>
                 <div class="Project-Name">- Full-Stack Developer</div>
                 <div class="Project-time">OCT 2022 - PRESENT</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.com/"><i class="bx bxl-behance"></i></a>
+                <a href="https://github.com/Bukharney/Bukshort"><i class="bx bxl-github"></i></a>
               </div>
             </div>
             <p>
               As a full-stack developer, I seamlessly handled both front-end and back-end tasks and
               ensured a smooth integration of features for a user-friendly web application. ( Go &
               Svelte )
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="Project-section">
-        <div class="Project-header">
-          <div class="Project-left">
-            <div class="Project-pic-5"></div>
-          </div>
-          <div class="Project-right">
-            <div class="Project-Name-Grid">
-              <div>
-                <div class="Project-Name">- Full-Stack Developer</div>
-                <div class="Project-time">JUNE 2022</div>
-              </div>
-              <div class="Project-Link-icon">
-                <a href="https://github.com/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.com/"><i class="bx bxl-behance"></i></a>
-              </div>
-            </div>
-            <p>
-              As a full-stack developer, I handled Farm Management System is a project designed to
-              assist fish farmers in efficiently managing their aquaculture operations. By
-              leveraging Internet of Things (IoT) technology. ( Dart & Flutter )
             </p>
           </div>
         </div>
@@ -226,7 +240,7 @@ p {
 }
 
 .Project-pic-3 {
-  background-image: url('../assets/Banmod/Banner.png');
+  background-image: url('../assets/Bangmod/Banner.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -235,7 +249,7 @@ p {
 }
 
 .Project-pic-4 {
-  background-image: url('../assets/FullStack/Banner.png');
+  background-image: url('../assets/Bukshort/Banner.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -244,7 +258,7 @@ p {
 }
 
 .Project-pic-5 {
-  background-image: url('../assets/Farm/Banner.png');
+  background-image: url('../assets/Fishcare/Banner.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -253,7 +267,6 @@ p {
 }
 
 @media (max-width: 768px) {
-
   .Projects-header,
   .Projects-sub-header {
     font-size: 1.5rem;
