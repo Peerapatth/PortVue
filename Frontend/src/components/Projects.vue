@@ -26,8 +26,8 @@
                 <div class="Project-time">SEP 2023 - DEC 2023</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/JOKPOON/ModX" target="_blank"
-                  ><i class="bx bxl-github"></i
+                <a href="https://gitlab.com/Bukharney/ModX" target="_blank"
+                  ><i class="bx bxl-gitlab"></i
                 ></a>
                 <a
                   href="https://www.behance.net/gallery/186493453/MODX-KMUTT-Book-Store"
