@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Portfolio from './components/Portfolio.vue'
+import Portfolio from './components/Portfolio.vue'
 </script>
 
 <template>
@@ -7,6 +7,3 @@
     <Portfolio />
   </main>
 </template>
-
-<style scoped>
-</style>

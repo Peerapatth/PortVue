@@ -3,8 +3,9 @@
     <div class="contact-footer">
       <div class="Footer-left">
         <header>JIRAPAT.</header>
-        <span>Email:</span> Bukharney@gmail.com <br />
-        <span>Phone:</span> 097-341-8245
+        <span>Email:</span> <a href="mailto:bukharney@gmail.com">bukharney@gmail.com</a>
+        <br />
+        <span>Phone:</span> <a href="tel:0973418245">097-341-8245</a>
       </div>
       <div class="Footer-right">
         <div class="Footer-link">
@@ -90,5 +91,10 @@
   border: 1.5px solid var(--write-primary);
   color: var(--write-primary);
   border-radius: 20%;
+}
+
+a[href^='mailto:'],
+a[href^='tel:'] {
+  color: white;
 }
 </style>

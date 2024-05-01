@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
-const props = defineProps({
-  title: String
-})
 import { onMounted } from 'vue'
 onMounted(() => {
   console.log('Component is mounted')
@@ -23,7 +19,7 @@ onMounted(() => {
         <li><a href="#contact">Contact</a></li>
       </div>
       <div class="Navtalk">
-        <li><a href="https://www.linkedin.com/in/jirapat-lakma/">Let's talk</a></li>
+        <li><a href="mailto:bukharney@gmail.com">Let's talk</a></li>
       </div>
     </ul>
   </nav>
