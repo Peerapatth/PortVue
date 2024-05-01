@@ -11,7 +11,7 @@ const scrollToSection = (sectionId, paddingTop = 20) => {
     const navBarHeight = document.querySelector('nav').offsetHeight
     const offset = section.offsetTop - navBarHeight - paddingTop
 
-    document.body.style.scrollBehavior = 'auto'
+    document.body.style.scrollBehavior = 'smooth'
     window.scrollTo({ top: offset, behavior: 'smooth' })
     setTimeout(() => {
       document.body.style.scrollBehavior = 'smooth'
@@ -43,10 +43,12 @@ main {
   from {
     opacity: 0;
     transform: translateY(50px);
+    scroll-behavior: smooth;
   }
   to {
     opacity: 1;
     transform: translateY(0);
+    scroll-behavior: smooth;
   }
 }
 

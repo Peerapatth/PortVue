@@ -6,7 +6,9 @@
       <div class="Project-section">
         <div class="Project-header">
           <div class="Project-left">
-            <div class="Project-pic-1"></div>
+            <a href="https://modx.bukharney.tech/" target="_blank">
+              <div class="Project-pic-1"></div>
+            </a>
           </div>
 
           <div class="Project-right">
@@ -24,8 +26,12 @@
                 <div class="Project-time">SEP 2023 - DEC 2023</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/JOKPOON/ModX"><i class="bx bxl-github"></i></a>
-                <a href="https://www.behance.net/gallery/186493453/MODX-KMUTT-Book-Store"
+                <a href="https://gitlab.com/Bukharney/ModX" target="_blank"
+                  ><i class="bx bxl-gitlab"></i
+                ></a>
+                <a
+                  href="https://www.behance.net/gallery/186493453/MODX-KMUTT-Book-Store"
+                  target="_blank"
                   ><i class="bx bxl-behance"></i
                 ></a>
               </div>
@@ -41,7 +47,9 @@
       <div class="Project-section">
         <div class="Project-header">
           <div class="Project-left">
-            <div class="Project-pic-2"></div>
+            <a href="https://tradekub.me/docs" target="_blank">
+              <div class="Project-pic-2"></div>
+            </a>
           </div>
           <div class="Project-right">
             <div class="Project-Name-Grid">
@@ -58,10 +66,10 @@
                 <div class="Project-time">MAR 2023 - MAY 20233</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/Bukharney/Tradekub_API"
+                <a href="https://github.com/Bukharney/Tradekub_API" target="_blank"
                   ><i class="bx bxl-github"></i
                 ></a>
-                <a href="https://www.behance.net/gallery/171777891/Tradekub"
+                <a href="https://www.behance.net/gallery/171777891/Tradekub" target="_blank"
                   ><i class="bx bxl-behance"></i
                 ></a>
               </div>
@@ -78,7 +86,9 @@
       <div class="Project-section">
         <div class="Project-header">
           <div class="Project-left">
-            <div class="Project-pic-3"></div>
+            <a href="https://github.com/cpe-kmutt-student/bangmod-hackathon-2023" target="_blank">
+              <div class="Project-pic-3"></div>
+            </a>
           </div>
           <div class="Project-right">
             <div class="Project-Name-Grid">
@@ -95,7 +105,9 @@
                 <div class="Project-time">OCT 2022 - NOV 2022</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/cpe-kmutt-student/bangmod-hackathon-2023"
+                <a
+                  href="https://github.com/cpe-kmutt-student/bangmod-hackathon-2023"
+                  target="_blank"
                   ><i class="bx bxl-github"></i
                 ></a>
               </div>
@@ -111,7 +123,9 @@
       <div class="Project-section">
         <div class="Project-header">
           <div class="Project-left">
-            <div class="Project-pic-4"></div>
+            <a href="https://bukshort.bukharney.tech/" target="_blank">
+              <div class="Project-pic-4"></div>
+            </a>
           </div>
           <div class="Project-right">
             <div class="Project-Name-Grid">
@@ -121,14 +135,20 @@
                     src="
                   ../assets/Bukshort/Logo.png"
                     alt=""
-                    style="height: 2rem; margin-right: 0.5rem"
+                    style="
+                      height: 2rem;
+                      margin-right: 0.5rem;
+                      filter: drop-shadow(0 0 0.15rem white);
+                    "
                   />
                 </div>
-                <div class="Project-Name">- Full-Stack Developer</div>
+                <div class="Project-Name">Bukshort - Full-Stack Developer</div>
                 <div class="Project-time">OCT 2022 - PRESENT</div>
               </div>
               <div class="Project-Link-icon">
-                <a href="https://github.com/Bukharney/Bukshort"><i class="bx bxl-github"></i></a>
+                <a href="https://github.com/Bukharney/Bukshort" target="_blank"
+                  ><i class="bx bxl-github"></i
+                ></a>
               </div>
             </div>
             <p>
@@ -293,5 +313,18 @@ p {
   .Project-left {
     order: 2;
   }
+}
+
+.Project-pic-1:hover {
+  scale: 1.05;
+}
+.Project-pic-2:hover {
+  scale: 1.05;
+}
+.Project-pic-3:hover {
+  scale: 1.05;
+}
+.Project-pic-4:hover {
+  scale: 1.05;
 }
 </style>
